@@ -31,7 +31,7 @@ class ImageListFragment : Fragment() {
       }
 
       val viewModel = ViewModelProvider(this).get(ImageViewModel::class.java)
-      val imageAdapter = ImageAdapter(onImageClick)
+      val imageAdapter = ImageAdapter(spanCount, onImageClick)
 
       val binding = FragmentImageListBinding.inflate(inflater, container, false)
       binding.apply {

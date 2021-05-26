@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.izolentiy.alefentranceproject.SquareImageView
+<ImageView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/image_view_picture"
     android:layout_width="wrap_content"
-    android:layout_height="@dimen/dummy_height"
+    android:layout_height="wrap_content"
     android:contentDescription="@null"
     android:scaleType="centerCrop"
     tools:src="@tools:sample/backgrounds/scenic" />
